@@ -760,6 +760,10 @@ body {
 	.description {letter-spacing:.08em;}
 }
 
+@media only screen and (max-width:330px) {
+	.description {letter-spacing:0em;}
+}
+
 /*surprises section*/
 
 .sec3 {
@@ -881,6 +885,10 @@ body {
 	.bitems {height:3em;}
 }
 
+@media only screen and (max-width:330px) {
+	.bitems {height:2em;}
+}
+
 .r1 {
 	display:flex;
 }
@@ -933,6 +941,11 @@ body {
 	.ivalue {font-size:.35em;}
 }
 
+@media only screen and (max-width:330px) {
+	.ivalue {letter-spacing:0em;
+	font-size:.1em}
+}
+
 .checked {
 	color:yellow;
 }
@@ -948,6 +961,10 @@ body {
 
 @media only screen and (max-width:390px) {
 	.users {font-size:.35em;}
+}
+
+@media only screen and (max-width:330px) {
+	.users {font-size:.1em;}
 }
 
 /*users review section*/
@@ -973,6 +990,10 @@ body {
 
 @media only screen and (max-width:500px) {
 	.reviewcontent {margin:4em auto;}
+}
+
+@media only screen and (max-width:330px) {
+	.reviewcontent {margin:3em auto;}
 }
 
 .rimg0 {
@@ -1151,6 +1172,10 @@ input[type=submit] {
 	padding:.4em .3em;}
 }
 
+@media only screen and (max-width:330px) {
+	.het {font-size:.6em;}
+}
+
 .het:hover {
 	transform:translateY(-.4em);
 }
@@ -1301,6 +1326,10 @@ input[type=submit] {
 	.fbut {font-size:.7em;}
 }
 
+@media only screen and (max-width:330px) {
+	.fbut {font-size:.6em;}
+}
+
 .fbut:hover {
 	color:white;
 }
@@ -1331,6 +1360,10 @@ input[type=submit] {
 
 @media only screen and (max-width:390px) {
 	.fbutton {right:0.1em;}
+}
+
+@media only screen and (max-width:330px) {
+	.fbutton {padding:.3em .7em;}
 }
 
 .fbutton:hover {
